@@ -1,0 +1,1 @@
+  -L"D:/Renderro/Renderro-public/libs/glfw/lib"  -lGLFW_LIBRARY-NOTFOUND C:/msys64/mingw64/lib/libopengl32.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

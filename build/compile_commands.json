@@ -1,0 +1,164 @@
+[
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Renderro.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\Renderro.dir\\src\\main.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\main.cpp",
+  "file": "D:/Renderro/Renderro-public/src/main.cpp",
+  "output": "CMakeFiles/Renderro.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Renderro.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\Renderro.dir\\src\\Application.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Application.cpp",
+  "file": "D:/Renderro/Renderro-public/src/Application.cpp",
+  "output": "CMakeFiles/Renderro.dir/src/Application.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Renderro.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\Renderro.dir\\src\\Window.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Window.cpp",
+  "file": "D:/Renderro/Renderro-public/src/Window.cpp",
+  "output": "CMakeFiles/Renderro.dir/src/Window.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Renderro.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\Renderro.dir\\src\\Shader.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Shader.cpp",
+  "file": "D:/Renderro/Renderro-public/src/Shader.cpp",
+  "output": "CMakeFiles/Renderro.dir/src/Shader.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Renderro.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\Renderro.dir\\src\\Renderer.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Renderer.cpp",
+  "file": "D:/Renderro/Renderro-public/src/Renderer.cpp",
+  "output": "CMakeFiles/Renderro.dir/src/Renderer.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/Renderro.dir/includes_C.rsp -g -Wall -Wextra -o CMakeFiles\\Renderro.dir\\libs\\glad\\src\\glad.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glad\\src\\glad.c",
+  "file": "D:/Renderro/Renderro-public/libs/glad/src/glad.c",
+  "output": "CMakeFiles/Renderro.dir/libs/glad/src/glad.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\context.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\context.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/context.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\init.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\init.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/init.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\input.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\input.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/input.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\monitor.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\monitor.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/monitor.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\platform.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\platform.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/platform.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/platform.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\vulkan.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/vulkan.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\window.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\window.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/window.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\egl_context.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/egl_context.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\osmesa_context.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/osmesa_context.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\null_init.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\null_init.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/null_init.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\null_monitor.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\null_monitor.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/null_monitor.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\null_window.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\null_window.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/null_window.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\null_joystick.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\null_joystick.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/null_joystick.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\win32_module.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\win32_module.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/win32_module.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\win32_time.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/win32_time.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\win32_thread.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/win32_thread.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\win32_init.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/win32_init.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\win32_joystick.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/win32_joystick.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\win32_monitor.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/win32_monitor.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\win32_window.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/win32_window.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -Wextra -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glfw\\src\\wgl_context.c",
+  "file": "D:/Renderro/Renderro-public/libs/glfw/src/wgl_context.c",
+  "output": "libs/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+}
+]

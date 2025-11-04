@@ -1,0 +1,1 @@
+-I"D:/Renderro/Renderro-public/libs/glad/include" -I"D:/Renderro/Renderro-public/libs/glfw/include" -I"D:/Renderro/Renderro-public/libs/glm" -I"D:/Renderro/Renderro-public/libs/glfw/src" -I"D:/Renderro/Renderro-public/build/libs/glfw/src" -I"D:/Renderro/Renderro-public/libs/glfw/deps/mingw"
