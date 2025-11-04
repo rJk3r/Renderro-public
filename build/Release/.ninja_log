@@ -21,12 +21,10 @@
 1562	2133	7839843935037227	libs/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	520a57ad8ef548ef
 1613	2156	7839843935602243	libs/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	b9ea4121573c532
 1574	2248	7839843935152238	libs/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	9701989e2ee728b2
-1013	1239	7839844824974753	SimpleRenderer.exe	75271ced7a706cb8
+748	1069	7839845771452753	SimpleRenderer.exe	d88cd112b91f4b4
 1906	2651	7839843938547229	libs/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	220807f2d8b71906
-2141	3301	7839843940867222	CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj	ed40289a04c1a2bc
+50	748	7839845764472739	CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj	ed40289a04c1a2bc
 75	352	7839844815599753	CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj	ed3daec98a7f4159
 84	730	7839844815704766	CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj	fcf4e07eaade868
 57	855	7839844815419749	CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj	8b9564610c462499
 64	1012	7839844815489787	CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj	76b35e99c194338d
-50	748	7839845764472739	CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj	ed40289a04c1a2bc
-748	1069	7839845771452753	SimpleRenderer.exe	d88cd112b91f4b4

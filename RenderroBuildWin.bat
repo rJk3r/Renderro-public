@@ -115,6 +115,24 @@ exit /b 1
 echo Using CMake generator: %GENERATOR%
 echo.
 
+REM Check for GLM headers inside libs/glm (project expects headers at libs/glm/glm/...)
+if not exist "libs\glm\glm\glm.hpp" (
+    if not exist "libs\glm\glm.hpp" (
+        echo ERROR: GLM headers not found under libs\glm.
+        echo The project requires the GLM header-only library (https://github.com/g-truc/glm).
+        echo Options to fix:
+        echo  1) Install via vcpkg and integrate: (example)
+        echo     > git clone https://github.com/microsoft/vcpkg.git
+        echo     > .\vcpkg\bootstrap-vcpkg.bat
+        echo     > .\vcpkg\vcpkg install glm
+        echo     Then follow vcpkg integration instructions so CMake can find glm.
+        echo  2) Or download GLM and place the headers at libs\glm\glm\*.hpp (i.e. libs\glm\glm\glm.hpp should exist).
+        echo After installing, re-run this script.
+        pause
+        exit /b 1
+    )
+)
+
 REM Create build directory
 set BUILD_DIR=build\%BUILD_TYPE%
 if not exist "%BUILD_DIR%" (
