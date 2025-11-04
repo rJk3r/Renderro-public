@@ -1,39 +1,39 @@
 [
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Renderro.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\Renderro.dir\\src\\main.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\main.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\src\\main.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\main.cpp",
   "file": "D:/Renderro/Renderro-public/src/main.cpp",
-  "output": "CMakeFiles/Renderro.dir/src/main.cpp.obj"
+  "output": "CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Renderro.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\Renderro.dir\\src\\Application.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Application.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\src\\Application.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Application.cpp",
   "file": "D:/Renderro/Renderro-public/src/Application.cpp",
-  "output": "CMakeFiles/Renderro.dir/src/Application.cpp.obj"
+  "output": "CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Renderro.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\Renderro.dir\\src\\Window.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Window.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\src\\Window.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Window.cpp",
   "file": "D:/Renderro/Renderro-public/src/Window.cpp",
-  "output": "CMakeFiles/Renderro.dir/src/Window.cpp.obj"
+  "output": "CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Renderro.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\Renderro.dir\\src\\Shader.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Shader.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\src\\Shader.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Shader.cpp",
   "file": "D:/Renderro/Renderro-public/src/Shader.cpp",
-  "output": "CMakeFiles/Renderro.dir/src/Shader.cpp.obj"
+  "output": "CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Renderro.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\Renderro.dir\\src\\Renderer.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Renderer.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\src\\Renderer.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Renderer.cpp",
   "file": "D:/Renderro/Renderro-public/src/Renderer.cpp",
-  "output": "CMakeFiles/Renderro.dir/src/Renderer.cpp.obj"
+  "output": "CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/Renderro.dir/includes_C.rsp -g -Wall -Wextra -o CMakeFiles\\Renderro.dir\\libs\\glad\\src\\glad.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glad\\src\\glad.c",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/SimpleRenderer.dir/includes_C.rsp -g -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\libs\\glad\\src\\glad.c.obj -c D:\\Renderro\\Renderro-public\\libs\\glad\\src\\glad.c",
   "file": "D:/Renderro/Renderro-public/libs/glad/src/glad.c",
-  "output": "CMakeFiles/Renderro.dir/libs/glad/src/glad.c.obj"
+  "output": "CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build/libs/glfw/src",

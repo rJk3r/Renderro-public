@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Renderro-public.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\Renderro-public.dir/objects.a @CMakeFiles\Renderro-public.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Renderro-public.dir/objects.a -Wl,--no-whole-archive -o Renderro-public.exe -Wl,--out-implib,libRenderro-public.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Renderro-public.dir\linkLibs.rsp

@@ -62,12 +62,12 @@ CMAKE_BINARY_DIR = D:\Renderro\Renderro-public\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Renderro.dir/all
+all: CMakeFiles/SimpleRenderer.dir/all
 all: libs/glfw/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/Renderro.dir/codegen
+codegen: CMakeFiles/SimpleRenderer.dir/codegen
 codegen: libs/glfw/codegen
 .PHONY : codegen
 
@@ -76,7 +76,7 @@ preinstall: libs/glfw/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Renderro.dir/clean
+clean: CMakeFiles/SimpleRenderer.dir/clean
 clean: libs/glfw/clean
 .PHONY : clean
 
@@ -144,36 +144,36 @@ libs/glfw/src/clean: libs/glfw/src/CMakeFiles/update_mappings.dir/clean
 .PHONY : libs/glfw/src/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Renderro.dir
+# Target rules for target CMakeFiles/SimpleRenderer.dir
 
 # All Build rule for target.
-CMakeFiles/Renderro.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Renderro"
-.PHONY : CMakeFiles/Renderro.dir/all
+CMakeFiles/SimpleRenderer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target SimpleRenderer"
+.PHONY : CMakeFiles/SimpleRenderer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Renderro.dir/rule: cmake_check_build_system
+CMakeFiles/SimpleRenderer.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Renderro\Renderro-public\build\CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Renderro.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SimpleRenderer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Renderro\Renderro-public\build\CMakeFiles 0
-.PHONY : CMakeFiles/Renderro.dir/rule
+.PHONY : CMakeFiles/SimpleRenderer.dir/rule
 
 # Convenience name for target.
-Renderro: CMakeFiles/Renderro.dir/rule
-.PHONY : Renderro
+SimpleRenderer: CMakeFiles/SimpleRenderer.dir/rule
+.PHONY : SimpleRenderer
 
 # codegen rule for target.
-CMakeFiles/Renderro.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target Renderro"
-.PHONY : CMakeFiles/Renderro.dir/codegen
+CMakeFiles/SimpleRenderer.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target SimpleRenderer"
+.PHONY : CMakeFiles/SimpleRenderer.dir/codegen
 
 # clean rule for target.
-CMakeFiles/Renderro.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/clean
-.PHONY : CMakeFiles/Renderro.dir/clean
+CMakeFiles/SimpleRenderer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/clean
+.PHONY : CMakeFiles/SimpleRenderer.dir/clean
 
 #=============================================================================
 # Target rules for target libs/glfw/CMakeFiles/uninstall.dir

@@ -161,17 +161,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Renderro
+# Target rules for targets named SimpleRenderer
 
 # Build rule for target.
-Renderro: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Renderro
-.PHONY : Renderro
+SimpleRenderer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SimpleRenderer
+.PHONY : SimpleRenderer
 
 # fast build rule for target.
-Renderro/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/build
-.PHONY : Renderro/fast
+SimpleRenderer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/build
+.PHONY : SimpleRenderer/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -217,7 +217,7 @@ libs/glad/src/glad.obj: libs/glad/src/glad.c.obj
 
 # target to build an object file
 libs/glad/src/glad.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/libs/glad/src/glad.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj
 .PHONY : libs/glad/src/glad.c.obj
 
 libs/glad/src/glad.i: libs/glad/src/glad.c.i
@@ -225,7 +225,7 @@ libs/glad/src/glad.i: libs/glad/src/glad.c.i
 
 # target to preprocess a source file
 libs/glad/src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/libs/glad/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.i
 .PHONY : libs/glad/src/glad.c.i
 
 libs/glad/src/glad.s: libs/glad/src/glad.c.s
@@ -233,7 +233,7 @@ libs/glad/src/glad.s: libs/glad/src/glad.c.s
 
 # target to generate assembly for a file
 libs/glad/src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/libs/glad/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.s
 .PHONY : libs/glad/src/glad.c.s
 
 src/Application.obj: src/Application.cpp.obj
@@ -241,7 +241,7 @@ src/Application.obj: src/Application.cpp.obj
 
 # target to build an object file
 src/Application.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Application.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj
 .PHONY : src/Application.cpp.obj
 
 src/Application.i: src/Application.cpp.i
@@ -249,7 +249,7 @@ src/Application.i: src/Application.cpp.i
 
 # target to preprocess a source file
 src/Application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Application.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Application.cpp.i
 .PHONY : src/Application.cpp.i
 
 src/Application.s: src/Application.cpp.s
@@ -257,7 +257,7 @@ src/Application.s: src/Application.cpp.s
 
 # target to generate assembly for a file
 src/Application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Application.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Application.cpp.s
 .PHONY : src/Application.cpp.s
 
 src/Renderer.obj: src/Renderer.cpp.obj
@@ -265,7 +265,7 @@ src/Renderer.obj: src/Renderer.cpp.obj
 
 # target to build an object file
 src/Renderer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Renderer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj
 .PHONY : src/Renderer.cpp.obj
 
 src/Renderer.i: src/Renderer.cpp.i
@@ -273,7 +273,7 @@ src/Renderer.i: src/Renderer.cpp.i
 
 # target to preprocess a source file
 src/Renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Renderer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.i
 .PHONY : src/Renderer.cpp.i
 
 src/Renderer.s: src/Renderer.cpp.s
@@ -281,7 +281,7 @@ src/Renderer.s: src/Renderer.cpp.s
 
 # target to generate assembly for a file
 src/Renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Renderer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
 
 src/Shader.obj: src/Shader.cpp.obj
@@ -289,7 +289,7 @@ src/Shader.obj: src/Shader.cpp.obj
 
 # target to build an object file
 src/Shader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Shader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj
 .PHONY : src/Shader.cpp.obj
 
 src/Shader.i: src/Shader.cpp.i
@@ -297,7 +297,7 @@ src/Shader.i: src/Shader.cpp.i
 
 # target to preprocess a source file
 src/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.i
 .PHONY : src/Shader.cpp.i
 
 src/Shader.s: src/Shader.cpp.s
@@ -305,7 +305,7 @@ src/Shader.s: src/Shader.cpp.s
 
 # target to generate assembly for a file
 src/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
 src/Window.obj: src/Window.cpp.obj
@@ -313,7 +313,7 @@ src/Window.obj: src/Window.cpp.obj
 
 # target to build an object file
 src/Window.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Window.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj
 .PHONY : src/Window.cpp.obj
 
 src/Window.i: src/Window.cpp.i
@@ -321,7 +321,7 @@ src/Window.i: src/Window.cpp.i
 
 # target to preprocess a source file
 src/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Window.cpp.i
 .PHONY : src/Window.cpp.i
 
 src/Window.s: src/Window.cpp.s
@@ -329,7 +329,7 @@ src/Window.s: src/Window.cpp.s
 
 # target to generate assembly for a file
 src/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/Window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Window.cpp.s
 .PHONY : src/Window.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -337,7 +337,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -345,7 +345,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -353,7 +353,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Renderro.dir\build.make CMakeFiles/Renderro.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -370,7 +370,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... uninstall
 	@echo ... update_mappings
-	@echo ... Renderro
+	@echo ... SimpleRenderer
 	@echo ... glfw
 	@echo ... libs/glad/src/glad.obj
 	@echo ... libs/glad/src/glad.i

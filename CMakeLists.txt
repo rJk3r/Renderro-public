@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(Renderro)
+project(SimpleRenderer)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -29,12 +29,11 @@ if(UNIX AND NOT APPLE)
 endif()
 
 if(WIN32)
-    link_directories(${CMAKE_CURRENT_SOURCE_DIR}/libs/glfw/GLFW)
     find_library(OPENGL_LIBRARY opengl32)
-    find_library(GLFW_LIBRARY glfw)
+    # GLFW is built via add_subdirectory, so we use the target name "glfw" directly
 endif()
 
-add_executable(Renderro
+add_executable(SimpleRenderer
     src/main.cpp
     src/Application.cpp
     src/Window.cpp
@@ -44,7 +43,7 @@ add_executable(Renderro
 )
 
 if(UNIX AND NOT APPLE)
-    target_link_libraries(Renderro
+    target_link_libraries(SimpleRenderer
         ${GLFW_LIBRARY}
         ${OPENGL_LIBRARY}
         ${X11_LIBRARIES}
@@ -54,10 +53,15 @@ if(UNIX AND NOT APPLE)
 endif()
 
 if(WIN32)
-    target_link_libraries(Renderro
-        ${GLFW_LIBRARY}
+    target_link_libraries(SimpleRenderer
+        glfw
         ${OPENGL_LIBRARY}
     )
 endif()
 
-file(COPY build/resources/shaders DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+# Copy shaders to the same directory as the executable
+add_custom_command(TARGET SimpleRenderer POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${CMAKE_CURRENT_SOURCE_DIR}/shaders
+    $<TARGET_FILE_DIR:SimpleRenderer>/shaders
+)

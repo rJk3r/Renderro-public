@@ -17,7 +17,7 @@ bool Application::Initialize() {
         return false;
     }
 
-    m_Shader = new Shader("resources/shaders/basic.vert", "resources/shaders/basic.frag");
+    m_Shader = new Shader("shaders/basic.vert", "shaders/basic.frag");
     if (!m_Shader->Compile()) {
         return false;
     }

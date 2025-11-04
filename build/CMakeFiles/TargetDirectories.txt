@@ -1,4 +1,4 @@
-D:/Renderro/Renderro-public/build/CMakeFiles/Renderro.dir
+D:/Renderro/Renderro-public/build/CMakeFiles/SimpleRenderer.dir
 D:/Renderro/Renderro-public/build/CMakeFiles/edit_cache.dir
 D:/Renderro/Renderro-public/build/CMakeFiles/rebuild_cache.dir
 D:/Renderro/Renderro-public/build/CMakeFiles/list_install_components.dir
