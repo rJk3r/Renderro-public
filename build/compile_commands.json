@@ -1,33 +1,93 @@
 [
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\src\\main.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\main.cpp",
-  "file": "D:/Renderro/Renderro-public/src/main.cpp",
-  "output": "CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Launch\\main.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Launch\\main.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Launch/main.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\src\\Application.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Application.cpp",
-  "file": "D:/Renderro/Renderro-public/src/Application.cpp",
-  "output": "CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Core\\Private\\Engine\\Application.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Core\\Private\\Engine\\Application.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Core/Private/Engine/Application.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\src\\Window.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Window.cpp",
-  "file": "D:/Renderro/Renderro-public/src/Window.cpp",
-  "output": "CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Core\\Private\\Platform\\Window.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Core\\Private\\Platform\\Window.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Core/Private/Platform/Window.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\src\\Shader.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Shader.cpp",
-  "file": "D:/Renderro/Renderro-public/src/Shader.cpp",
-  "output": "CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Renderer\\Private\\Shader.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Renderer\\Private\\Shader.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Shader.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\src\\Renderer.cpp.obj -c D:\\Renderro\\Renderro-public\\src\\Renderer.cpp",
-  "file": "D:/Renderro/Renderro-public/src/Renderer.cpp",
-  "output": "CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Renderer\\Private\\Renderer.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Renderer\\Private\\Renderer.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Renderer.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Renderer\\Private\\FScene.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Renderer\\Private\\FScene.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/FScene.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Renderer\\Private\\FView.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Renderer\\Private\\FView.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/FView.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Renderer\\Private\\DeferredShadingRenderer.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Renderer\\Private\\DeferredShadingRenderer.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Renderer\\Private\\Passes\\FDepthPass.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Renderer\\Private\\Passes\\FDepthPass.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Renderer\\Private\\Passes\\FBasePass.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Renderer\\Private\\Passes\\FBasePass.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Renderer\\Private\\Passes\\FLightingPass.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Renderer\\Private\\Passes\\FLightingPass.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Renderer\\Private\\Passes\\FPostProcessPass.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Renderer\\Private\\Passes\\FPostProcessPass.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\RHI\\Private\\RHI.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\RHI\\Private\\RHI.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/RHI/Private/RHI.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Core\\Private\\Core\\FRenderThread.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Core\\Private\\Core\\FRenderThread.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj"
+},
+{
+  "directory": "D:/Renderro/Renderro-public/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -o CMakeFiles\\SimpleRenderer.dir\\Engine\\Source\\Runtime\\Core\\Private\\Engine\\FGameThread.cpp.obj -c D:\\Renderro\\Renderro-public\\Engine\\Source\\Runtime\\Core\\Private\\Engine\\FGameThread.cpp",
+  "file": "D:/Renderro/Renderro-public/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp",
+  "output": "CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj"
 },
 {
   "directory": "D:/Renderro/Renderro-public/build",

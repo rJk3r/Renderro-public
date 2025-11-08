@@ -71,86 +71,236 @@ include CMakeFiles/SimpleRenderer.dir/flags.make
 CMakeFiles/SimpleRenderer.dir/codegen:
 .PHONY : CMakeFiles/SimpleRenderer.dir/codegen
 
-CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
-CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
-CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj: D:/Renderro/Renderro-public/src/main.cpp
-CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\src\main.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\src\main.cpp.obj -c D:\Renderro\Renderro-public\src\main.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Launch/main.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Launch\main.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Launch\main.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Launch\main.cpp
 
-CMakeFiles/SimpleRenderer.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/src/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\src\main.cpp > CMakeFiles\SimpleRenderer.dir\src\main.cpp.i
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Launch\main.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Launch\main.cpp.i
 
-CMakeFiles/SimpleRenderer.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/src/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\src\main.cpp -o CMakeFiles\SimpleRenderer.dir\src\main.cpp.s
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Launch\main.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Launch\main.cpp.s
 
-CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
-CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
-CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj: D:/Renderro/Renderro-public/src/Application.cpp
-CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\src\Application.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\src\Application.cpp.obj -c D:\Renderro\Renderro-public\src\Application.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Core/Private/Engine/Application.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Engine\Application.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Engine\Application.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Engine\Application.cpp
 
-CMakeFiles/SimpleRenderer.dir/src/Application.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/src/Application.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\src\Application.cpp > CMakeFiles\SimpleRenderer.dir\src\Application.cpp.i
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Engine\Application.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Engine\Application.cpp.i
 
-CMakeFiles/SimpleRenderer.dir/src/Application.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/src/Application.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\src\Application.cpp -o CMakeFiles\SimpleRenderer.dir\src\Application.cpp.s
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Engine\Application.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Engine\Application.cpp.s
 
-CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
-CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
-CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj: D:/Renderro/Renderro-public/src/Window.cpp
-CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\src\Window.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\src\Window.cpp.obj -c D:\Renderro\Renderro-public\src\Window.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Core/Private/Platform/Window.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Platform\Window.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Platform\Window.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Platform\Window.cpp
 
-CMakeFiles/SimpleRenderer.dir/src/Window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/src/Window.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\src\Window.cpp > CMakeFiles\SimpleRenderer.dir\src\Window.cpp.i
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Platform\Window.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Platform\Window.cpp.i
 
-CMakeFiles/SimpleRenderer.dir/src/Window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/src/Window.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\src\Window.cpp -o CMakeFiles\SimpleRenderer.dir\src\Window.cpp.s
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Platform\Window.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Platform\Window.cpp.s
 
-CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
-CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
-CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj: D:/Renderro/Renderro-public/src/Shader.cpp
-CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\src\Shader.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\src\Shader.cpp.obj -c D:\Renderro\Renderro-public\src\Shader.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Shader.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Shader.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Shader.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Shader.cpp
 
-CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\src\Shader.cpp > CMakeFiles\SimpleRenderer.dir\src\Shader.cpp.i
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Shader.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Shader.cpp.i
 
-CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\src\Shader.cpp -o CMakeFiles\SimpleRenderer.dir\src\Shader.cpp.s
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Shader.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Shader.cpp.s
 
-CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
-CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
-CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj: D:/Renderro/Renderro-public/src/Renderer.cpp
-CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\src\Renderer.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\src\Renderer.cpp.obj -c D:\Renderro\Renderro-public\src\Renderer.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Renderer.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Renderer.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Renderer.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Renderer.cpp
 
-CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\src\Renderer.cpp > CMakeFiles\SimpleRenderer.dir\src\Renderer.cpp.i
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Renderer.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Renderer.cpp.i
 
-CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\src\Renderer.cpp -o CMakeFiles\SimpleRenderer.dir\src\Renderer.cpp.s
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Renderer.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Renderer.cpp.s
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/FScene.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\FScene.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\FScene.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\FScene.cpp
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\FScene.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\FScene.cpp.i
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\FScene.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\FScene.cpp.s
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/FView.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\FView.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\FView.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\FView.cpp
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\FView.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\FView.cpp.i
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\FView.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\FView.cpp.s
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\DeferredShadingRenderer.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\DeferredShadingRenderer.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\DeferredShadingRenderer.cpp
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\DeferredShadingRenderer.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\DeferredShadingRenderer.cpp.i
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\DeferredShadingRenderer.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\DeferredShadingRenderer.cpp.s
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FDepthPass.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FDepthPass.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FDepthPass.cpp
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FDepthPass.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FDepthPass.cpp.i
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FDepthPass.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FDepthPass.cpp.s
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FBasePass.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FBasePass.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FBasePass.cpp
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FBasePass.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FBasePass.cpp.i
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FBasePass.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FBasePass.cpp.s
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FLightingPass.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FLightingPass.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FLightingPass.cpp
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FLightingPass.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FLightingPass.cpp.i
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FLightingPass.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FLightingPass.cpp.s
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FPostProcessPass.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FPostProcessPass.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FPostProcessPass.cpp
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FPostProcessPass.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FPostProcessPass.cpp.i
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Renderer\Private\Passes\FPostProcessPass.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Renderer\Private\Passes\FPostProcessPass.cpp.s
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/RHI/Private/RHI.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\RHI\Private\RHI.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\RHI\Private\RHI.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\RHI\Private\RHI.cpp
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\RHI\Private\RHI.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\RHI\Private\RHI.cpp.i
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\RHI\Private\RHI.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\RHI\Private\RHI.cpp.s
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Core\FRenderThread.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Core\FRenderThread.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Core\FRenderThread.cpp
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Core\FRenderThread.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Core\FRenderThread.cpp.i
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Core\FRenderThread.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Core\FRenderThread.cpp.s
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj: CMakeFiles/SimpleRenderer.dir/flags.make
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj: CMakeFiles/SimpleRenderer.dir/includes_CXX.rsp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj: D:/Renderro/Renderro-public/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj -MF CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Engine\FGameThread.cpp.obj.d -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Engine\FGameThread.cpp.obj -c D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Engine\FGameThread.cpp
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Engine\FGameThread.cpp > CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Engine\FGameThread.cpp.i
+
+CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Renderro\Renderro-public\Engine\Source\Runtime\Core\Private\Engine\FGameThread.cpp -o CMakeFiles\SimpleRenderer.dir\Engine\Source\Runtime\Core\Private\Engine\FGameThread.cpp.s
 
 CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj: CMakeFiles/SimpleRenderer.dir/flags.make
 CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj: CMakeFiles/SimpleRenderer.dir/includes_C.rsp
 CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj: D:/Renderro/Renderro-public/libs/glad/src/glad.c
 CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj: CMakeFiles/SimpleRenderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj -MF CMakeFiles\SimpleRenderer.dir\libs\glad\src\glad.c.obj.d -o CMakeFiles\SimpleRenderer.dir\libs\glad\src\glad.c.obj -c D:\Renderro\Renderro-public\libs\glad\src\glad.c
 
 CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.i: cmake_force
@@ -163,28 +313,50 @@ CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.s: cmake_force
 
 # Object files for target SimpleRenderer
 SimpleRenderer_OBJECTS = \
-"CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj" \
-"CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj" \
-"CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj" \
-"CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj" \
-"CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj" \
+"CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj" \
 "CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj"
 
 # External object files for target SimpleRenderer
 SimpleRenderer_EXTERNAL_OBJECTS =
 
-SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj
-SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj
-SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj
-SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj
-SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj
+SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj
 SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.obj
 SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/build.make
+SimpleRenderer.exe: libs/glfw/src/libglfw3.a
 SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/linkLibs.rsp
 SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/objects1.rsp
 SimpleRenderer.exe: CMakeFiles/SimpleRenderer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable SimpleRenderer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Renderro\Renderro-public\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable SimpleRenderer.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SimpleRenderer.dir\link.txt --verbose=$(VERBOSE)
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/Renderro/Renderro-public/shaders D:/Renderro/Renderro-public/build/shaders
 
 # Rule to build all files generated by this target.
 CMakeFiles/SimpleRenderer.dir/build: SimpleRenderer.exe

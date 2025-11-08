@@ -3,7 +3,7 @@ REM Renderro - Windows Build Script
 REM Builds the project using CMake without generating Visual Studio solution files.
 REM Usage: RenderroBuildWin.bat [Debug|Release] [clean] [run]
 
-setlocal enabledelayedexpansion
+setlocal EnableExtensions EnableDelayedExpansion
 
 echo ========================================
 echo    Renderro - Windows Build Script
@@ -66,18 +66,18 @@ if errorlevel 1 (
         set "VCVARS=!VSINSTALL!\VC\Auxiliary\Build\vcvarsall.bat"
         if exist "!VSDEVCMD!" (
             echo Calling VsDevCmd.bat to initialize developer environment...
-            call "!VSDEVCMD!" -arch=amd64
+            set "VS_BATCH_FILE=!VSDEVCMD!"
+            call "!VS_BATCH_FILE!" -arch=amd64
             where cl >nul 2>nul
-            set VS_CHECK_ERR=!ERRORLEVEL!
-            if !VS_CHECK_ERR! equ 0 (
+            if !ERRORLEVEL! equ 0 (
                 set VS_INITIALIZED=true
             )
         ) else if exist "!VCVARS!" (
             echo Calling vcvarsall.bat to initialize developer environment...
-            call "!VCVARS!" amd64
+            set "VS_BATCH_FILE=!VCVARS!"
+            call "!VS_BATCH_FILE!" amd64
             where cl >nul 2>nul
-            set VS_CHECK_ERR=!ERRORLEVEL!
-            if !VS_CHECK_ERR! equ 0 (
+            if !ERRORLEVEL! equ 0 (
                 set VS_INITIALIZED=true
             )
         )
@@ -134,18 +134,18 @@ if not exist "libs\glm\glm\glm.hpp" (
 )
 
 REM Create build directory
-set BUILD_DIR=build\%BUILD_TYPE%
-if not exist "%BUILD_DIR%" (
-    echo Creating build directory: %BUILD_DIR%
-    mkdir "%BUILD_DIR%"
+set "BUILD_DIR=build\!BUILD_TYPE!"
+if not exist "!BUILD_DIR!" (
+    echo Creating build directory: !BUILD_DIR!
+    mkdir "!BUILD_DIR!"
 )
 
 REM Clean build if requested
-if "%CLEAN_BUILD%"=="true" (
+if "!CLEAN_BUILD!"=="true" (
     echo Cleaning build directory...
-    if exist "%BUILD_DIR%" (
-        rmdir /s /q "%BUILD_DIR%"
-        mkdir "%BUILD_DIR%"
+    if exist "!BUILD_DIR!" (
+        rmdir /s /q "!BUILD_DIR!"
+        mkdir "!BUILD_DIR!"
     )
 )
 
@@ -153,8 +153,16 @@ echo.
 echo ========================================
 echo Configuring with CMake...
 echo ========================================
-cmake -S . -B "%BUILD_DIR%" -G "%GENERATOR%" -DCMAKE_BUILD_TYPE=%BUILD_TYPE%
-if errorlevel 1 (
+setlocal DisableDelayedExpansion
+set "BUILD_TYPE_VAL=%BUILD_TYPE%"
+set "GENERATOR_VAL=%GENERATOR%"
+set "BUILD_DIR_VAL=build\%BUILD_TYPE_VAL%"
+pushd "%~dp0"
+cmake -B "%BUILD_DIR_VAL%" -G "%GENERATOR_VAL%" -DCMAKE_BUILD_TYPE=%BUILD_TYPE_VAL%
+set CMAKE_RESULT=%ERRORLEVEL%
+popd
+endlocal & set CMAKE_RESULT=%CMAKE_RESULT%
+if !CMAKE_RESULT! neq 0 (
     echo ERROR: Failed to configure with CMake
     pause
     exit /b 1
@@ -164,8 +172,15 @@ echo.
 echo ========================================
 echo Building Renderro...
 echo ========================================
-cmake --build "%BUILD_DIR%" --config %BUILD_TYPE% --parallel
-if errorlevel 1 (
+setlocal DisableDelayedExpansion
+set "BUILD_TYPE_VAL=%BUILD_TYPE%"
+set "BUILD_DIR_VAL=build\%BUILD_TYPE_VAL%"
+pushd "%~dp0"
+cmake --build "%BUILD_DIR_VAL%" --config %BUILD_TYPE_VAL% --parallel
+set BUILD_RESULT=%ERRORLEVEL%
+popd
+endlocal & set BUILD_RESULT=%BUILD_RESULT%
+if !BUILD_RESULT! neq 0 (
     echo ERROR: Build failed
     pause
     exit /b 1
@@ -205,6 +220,7 @@ if "%EXE_PATH%"=="" (
 )
 
 echo.
-echo Build script completed!
+echo ^G
+echo [Renderro] Build script completed!
 pause
 exit /b 0

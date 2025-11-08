@@ -14,6 +14,9 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/glad/include
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/glfw/include
     ${CMAKE_CURRENT_SOURCE_DIR}/libs/glm
+    ${CMAKE_CURRENT_SOURCE_DIR}/Engine/Source/Runtime/Core/Public
+    ${CMAKE_CURRENT_SOURCE_DIR}/Engine/Source/Runtime/Renderer/Public
+    ${CMAKE_CURRENT_SOURCE_DIR}/Engine/Source/Runtime/RHI/Public
 )
 
 find_package(OpenGL REQUIRED)
@@ -34,11 +37,21 @@ if(WIN32)
 endif()
 
 add_executable(SimpleRenderer
-    src/main.cpp
-    src/Application.cpp
-    src/Window.cpp
-    src/Shader.cpp
-    src/Renderer.cpp
+    Engine/Source/Runtime/Launch/main.cpp
+    Engine/Source/Runtime/Core/Private/Engine/Application.cpp
+    Engine/Source/Runtime/Core/Private/Platform/Window.cpp
+    Engine/Source/Runtime/Renderer/Private/Shader.cpp
+    Engine/Source/Runtime/Renderer/Private/Renderer.cpp
+    Engine/Source/Runtime/Renderer/Private/FScene.cpp
+    Engine/Source/Runtime/Renderer/Private/FView.cpp
+    Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp
+    Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp
+    Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp
+    Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp
+    Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp
+    Engine/Source/Runtime/RHI/Private/RHI.cpp
+    Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp
+    Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp
     libs/glad/src/glad.c
 )
 

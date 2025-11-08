@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Renderro/Renderro-public/build/cmake_install.cmake",
+		"D:/Renderro/Renderro-public/build/libs/glfw/cmake_install.cmake",
+		"D:/Renderro/Renderro-public/build/libs/glfw/src/cmake_install.cmake",
+		"D:/Renderro/Renderro-public/build/libs/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -212,6 +212,366 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f libs\glfw\src\CMakeFiles\update_mappings.dir\build.make libs/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+Engine/Source/Runtime/Core/Private/Core/FRenderThread.obj: Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj
+.PHONY : Engine/Source/Runtime/Core/Private/Core/FRenderThread.obj
+
+# target to build an object file
+Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj
+.PHONY : Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.obj
+
+Engine/Source/Runtime/Core/Private/Core/FRenderThread.i: Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.i
+.PHONY : Engine/Source/Runtime/Core/Private/Core/FRenderThread.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.i
+.PHONY : Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.i
+
+Engine/Source/Runtime/Core/Private/Core/FRenderThread.s: Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.s
+.PHONY : Engine/Source/Runtime/Core/Private/Core/FRenderThread.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.s
+.PHONY : Engine/Source/Runtime/Core/Private/Core/FRenderThread.cpp.s
+
+Engine/Source/Runtime/Core/Private/Engine/Application.obj: Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/Application.obj
+
+# target to build an object file
+Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/Application.cpp.obj
+
+Engine/Source/Runtime/Core/Private/Engine/Application.i: Engine/Source/Runtime/Core/Private/Engine/Application.cpp.i
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/Application.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Core/Private/Engine/Application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.i
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/Application.cpp.i
+
+Engine/Source/Runtime/Core/Private/Engine/Application.s: Engine/Source/Runtime/Core/Private/Engine/Application.cpp.s
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/Application.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Core/Private/Engine/Application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/Application.cpp.s
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/Application.cpp.s
+
+Engine/Source/Runtime/Core/Private/Engine/FGameThread.obj: Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/FGameThread.obj
+
+# target to build an object file
+Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.obj
+
+Engine/Source/Runtime/Core/Private/Engine/FGameThread.i: Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.i
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/FGameThread.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.i
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.i
+
+Engine/Source/Runtime/Core/Private/Engine/FGameThread.s: Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.s
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/FGameThread.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.s
+.PHONY : Engine/Source/Runtime/Core/Private/Engine/FGameThread.cpp.s
+
+Engine/Source/Runtime/Core/Private/Platform/Window.obj: Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj
+.PHONY : Engine/Source/Runtime/Core/Private/Platform/Window.obj
+
+# target to build an object file
+Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj
+.PHONY : Engine/Source/Runtime/Core/Private/Platform/Window.cpp.obj
+
+Engine/Source/Runtime/Core/Private/Platform/Window.i: Engine/Source/Runtime/Core/Private/Platform/Window.cpp.i
+.PHONY : Engine/Source/Runtime/Core/Private/Platform/Window.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Core/Private/Platform/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.i
+.PHONY : Engine/Source/Runtime/Core/Private/Platform/Window.cpp.i
+
+Engine/Source/Runtime/Core/Private/Platform/Window.s: Engine/Source/Runtime/Core/Private/Platform/Window.cpp.s
+.PHONY : Engine/Source/Runtime/Core/Private/Platform/Window.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Core/Private/Platform/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Core/Private/Platform/Window.cpp.s
+.PHONY : Engine/Source/Runtime/Core/Private/Platform/Window.cpp.s
+
+Engine/Source/Runtime/Launch/main.obj: Engine/Source/Runtime/Launch/main.cpp.obj
+.PHONY : Engine/Source/Runtime/Launch/main.obj
+
+# target to build an object file
+Engine/Source/Runtime/Launch/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.obj
+.PHONY : Engine/Source/Runtime/Launch/main.cpp.obj
+
+Engine/Source/Runtime/Launch/main.i: Engine/Source/Runtime/Launch/main.cpp.i
+.PHONY : Engine/Source/Runtime/Launch/main.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Launch/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.i
+.PHONY : Engine/Source/Runtime/Launch/main.cpp.i
+
+Engine/Source/Runtime/Launch/main.s: Engine/Source/Runtime/Launch/main.cpp.s
+.PHONY : Engine/Source/Runtime/Launch/main.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Launch/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Launch/main.cpp.s
+.PHONY : Engine/Source/Runtime/Launch/main.cpp.s
+
+Engine/Source/Runtime/RHI/Private/RHI.obj: Engine/Source/Runtime/RHI/Private/RHI.cpp.obj
+.PHONY : Engine/Source/Runtime/RHI/Private/RHI.obj
+
+# target to build an object file
+Engine/Source/Runtime/RHI/Private/RHI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.obj
+.PHONY : Engine/Source/Runtime/RHI/Private/RHI.cpp.obj
+
+Engine/Source/Runtime/RHI/Private/RHI.i: Engine/Source/Runtime/RHI/Private/RHI.cpp.i
+.PHONY : Engine/Source/Runtime/RHI/Private/RHI.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/RHI/Private/RHI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.i
+.PHONY : Engine/Source/Runtime/RHI/Private/RHI.cpp.i
+
+Engine/Source/Runtime/RHI/Private/RHI.s: Engine/Source/Runtime/RHI/Private/RHI.cpp.s
+.PHONY : Engine/Source/Runtime/RHI/Private/RHI.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/RHI/Private/RHI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/RHI/Private/RHI.cpp.s
+.PHONY : Engine/Source/Runtime/RHI/Private/RHI.cpp.s
+
+Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.obj: Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.obj
+
+# target to build an object file
+Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.obj
+
+Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.i: Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.i
+
+Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.s: Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp.s
+
+Engine/Source/Runtime/Renderer/Private/FScene.obj: Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/FScene.obj
+
+# target to build an object file
+Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/FScene.cpp.obj
+
+Engine/Source/Runtime/Renderer/Private/FScene.i: Engine/Source/Runtime/Renderer/Private/FScene.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/FScene.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Renderer/Private/FScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/FScene.cpp.i
+
+Engine/Source/Runtime/Renderer/Private/FScene.s: Engine/Source/Runtime/Renderer/Private/FScene.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/FScene.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Renderer/Private/FScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FScene.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/FScene.cpp.s
+
+Engine/Source/Runtime/Renderer/Private/FView.obj: Engine/Source/Runtime/Renderer/Private/FView.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/FView.obj
+
+# target to build an object file
+Engine/Source/Runtime/Renderer/Private/FView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/FView.cpp.obj
+
+Engine/Source/Runtime/Renderer/Private/FView.i: Engine/Source/Runtime/Renderer/Private/FView.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/FView.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Renderer/Private/FView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/FView.cpp.i
+
+Engine/Source/Runtime/Renderer/Private/FView.s: Engine/Source/Runtime/Renderer/Private/FView.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/FView.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Renderer/Private/FView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/FView.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/FView.cpp.s
+
+Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.obj: Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.obj
+
+# target to build an object file
+Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.obj
+
+Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.i: Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.i
+
+Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.s: Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.cpp.s
+
+Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.obj: Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.obj
+
+# target to build an object file
+Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.obj
+
+Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.i: Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.i
+
+Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.s: Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.cpp.s
+
+Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.obj: Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.obj
+
+# target to build an object file
+Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.obj
+
+Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.i: Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.i
+
+Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.s: Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.cpp.s
+
+Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.obj: Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.obj
+
+# target to build an object file
+Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.obj
+
+Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.i: Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.i
+
+Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.s: Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.cpp.s
+
+Engine/Source/Runtime/Renderer/Private/Renderer.obj: Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Renderer.obj
+
+# target to build an object file
+Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Renderer.cpp.obj
+
+Engine/Source/Runtime/Renderer/Private/Renderer.i: Engine/Source/Runtime/Renderer/Private/Renderer.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Renderer.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Renderer/Private/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Renderer.cpp.i
+
+Engine/Source/Runtime/Renderer/Private/Renderer.s: Engine/Source/Runtime/Renderer/Private/Renderer.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Renderer.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Renderer/Private/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Renderer.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Renderer.cpp.s
+
+Engine/Source/Runtime/Renderer/Private/Shader.obj: Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Shader.obj
+
+# target to build an object file
+Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj
+.PHONY : Engine/Source/Runtime/Renderer/Private/Shader.cpp.obj
+
+Engine/Source/Runtime/Renderer/Private/Shader.i: Engine/Source/Runtime/Renderer/Private/Shader.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Shader.i
+
+# target to preprocess a source file
+Engine/Source/Runtime/Renderer/Private/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.i
+.PHONY : Engine/Source/Runtime/Renderer/Private/Shader.cpp.i
+
+Engine/Source/Runtime/Renderer/Private/Shader.s: Engine/Source/Runtime/Renderer/Private/Shader.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Shader.s
+
+# target to generate assembly for a file
+Engine/Source/Runtime/Renderer/Private/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/Engine/Source/Runtime/Renderer/Private/Shader.cpp.s
+.PHONY : Engine/Source/Runtime/Renderer/Private/Shader.cpp.s
+
 libs/glad/src/glad.obj: libs/glad/src/glad.c.obj
 .PHONY : libs/glad/src/glad.obj
 
@@ -236,126 +596,6 @@ libs/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/libs/glad/src/glad.c.s
 .PHONY : libs/glad/src/glad.c.s
 
-src/Application.obj: src/Application.cpp.obj
-.PHONY : src/Application.obj
-
-# target to build an object file
-src/Application.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Application.cpp.obj
-.PHONY : src/Application.cpp.obj
-
-src/Application.i: src/Application.cpp.i
-.PHONY : src/Application.i
-
-# target to preprocess a source file
-src/Application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Application.cpp.i
-.PHONY : src/Application.cpp.i
-
-src/Application.s: src/Application.cpp.s
-.PHONY : src/Application.s
-
-# target to generate assembly for a file
-src/Application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Application.cpp.s
-.PHONY : src/Application.cpp.s
-
-src/Renderer.obj: src/Renderer.cpp.obj
-.PHONY : src/Renderer.obj
-
-# target to build an object file
-src/Renderer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.obj
-.PHONY : src/Renderer.cpp.obj
-
-src/Renderer.i: src/Renderer.cpp.i
-.PHONY : src/Renderer.i
-
-# target to preprocess a source file
-src/Renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.i
-.PHONY : src/Renderer.cpp.i
-
-src/Renderer.s: src/Renderer.cpp.s
-.PHONY : src/Renderer.s
-
-# target to generate assembly for a file
-src/Renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Renderer.cpp.s
-.PHONY : src/Renderer.cpp.s
-
-src/Shader.obj: src/Shader.cpp.obj
-.PHONY : src/Shader.obj
-
-# target to build an object file
-src/Shader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.obj
-.PHONY : src/Shader.cpp.obj
-
-src/Shader.i: src/Shader.cpp.i
-.PHONY : src/Shader.i
-
-# target to preprocess a source file
-src/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.i
-.PHONY : src/Shader.cpp.i
-
-src/Shader.s: src/Shader.cpp.s
-.PHONY : src/Shader.s
-
-# target to generate assembly for a file
-src/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Shader.cpp.s
-.PHONY : src/Shader.cpp.s
-
-src/Window.obj: src/Window.cpp.obj
-.PHONY : src/Window.obj
-
-# target to build an object file
-src/Window.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Window.cpp.obj
-.PHONY : src/Window.cpp.obj
-
-src/Window.i: src/Window.cpp.i
-.PHONY : src/Window.i
-
-# target to preprocess a source file
-src/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Window.cpp.i
-.PHONY : src/Window.cpp.i
-
-src/Window.s: src/Window.cpp.s
-.PHONY : src/Window.s
-
-# target to generate assembly for a file
-src/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/Window.cpp.s
-.PHONY : src/Window.cpp.s
-
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
-
-# target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleRenderer.dir\build.make CMakeFiles/SimpleRenderer.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -372,24 +612,54 @@ help:
 	@echo ... update_mappings
 	@echo ... SimpleRenderer
 	@echo ... glfw
+	@echo ... Engine/Source/Runtime/Core/Private/Core/FRenderThread.obj
+	@echo ... Engine/Source/Runtime/Core/Private/Core/FRenderThread.i
+	@echo ... Engine/Source/Runtime/Core/Private/Core/FRenderThread.s
+	@echo ... Engine/Source/Runtime/Core/Private/Engine/Application.obj
+	@echo ... Engine/Source/Runtime/Core/Private/Engine/Application.i
+	@echo ... Engine/Source/Runtime/Core/Private/Engine/Application.s
+	@echo ... Engine/Source/Runtime/Core/Private/Engine/FGameThread.obj
+	@echo ... Engine/Source/Runtime/Core/Private/Engine/FGameThread.i
+	@echo ... Engine/Source/Runtime/Core/Private/Engine/FGameThread.s
+	@echo ... Engine/Source/Runtime/Core/Private/Platform/Window.obj
+	@echo ... Engine/Source/Runtime/Core/Private/Platform/Window.i
+	@echo ... Engine/Source/Runtime/Core/Private/Platform/Window.s
+	@echo ... Engine/Source/Runtime/Launch/main.obj
+	@echo ... Engine/Source/Runtime/Launch/main.i
+	@echo ... Engine/Source/Runtime/Launch/main.s
+	@echo ... Engine/Source/Runtime/RHI/Private/RHI.obj
+	@echo ... Engine/Source/Runtime/RHI/Private/RHI.i
+	@echo ... Engine/Source/Runtime/RHI/Private/RHI.s
+	@echo ... Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.obj
+	@echo ... Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.i
+	@echo ... Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.s
+	@echo ... Engine/Source/Runtime/Renderer/Private/FScene.obj
+	@echo ... Engine/Source/Runtime/Renderer/Private/FScene.i
+	@echo ... Engine/Source/Runtime/Renderer/Private/FScene.s
+	@echo ... Engine/Source/Runtime/Renderer/Private/FView.obj
+	@echo ... Engine/Source/Runtime/Renderer/Private/FView.i
+	@echo ... Engine/Source/Runtime/Renderer/Private/FView.s
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.obj
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.i
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FBasePass.s
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.obj
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.i
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FDepthPass.s
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.obj
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.i
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FLightingPass.s
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.obj
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.i
+	@echo ... Engine/Source/Runtime/Renderer/Private/Passes/FPostProcessPass.s
+	@echo ... Engine/Source/Runtime/Renderer/Private/Renderer.obj
+	@echo ... Engine/Source/Runtime/Renderer/Private/Renderer.i
+	@echo ... Engine/Source/Runtime/Renderer/Private/Renderer.s
+	@echo ... Engine/Source/Runtime/Renderer/Private/Shader.obj
+	@echo ... Engine/Source/Runtime/Renderer/Private/Shader.i
+	@echo ... Engine/Source/Runtime/Renderer/Private/Shader.s
 	@echo ... libs/glad/src/glad.obj
 	@echo ... libs/glad/src/glad.i
 	@echo ... libs/glad/src/glad.s
-	@echo ... src/Application.obj
-	@echo ... src/Application.i
-	@echo ... src/Application.s
-	@echo ... src/Renderer.obj
-	@echo ... src/Renderer.i
-	@echo ... src/Renderer.s
-	@echo ... src/Shader.obj
-	@echo ... src/Shader.i
-	@echo ... src/Shader.s
-	@echo ... src/Window.obj
-	@echo ... src/Window.i
-	@echo ... src/Window.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
 .PHONY : help
 
 
